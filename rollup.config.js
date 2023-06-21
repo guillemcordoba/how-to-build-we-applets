@@ -17,7 +17,7 @@ export default {
   plugins: [
     /** Enable using HTML as rollup entrypoint */
     html({
-      minify: true,
+      minify: false,
       publicPath: "how-to-build-we-applets",
     }),
     /** Resolve bare module imports */
