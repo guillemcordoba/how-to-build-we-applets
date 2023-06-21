@@ -43,21 +43,7 @@ export default {
         ],
       ],
       plugins: [
-        [
-          require.resolve("babel-plugin-template-html-minifier"),
-          {
-            modules: { lit: ["html", { name: "css", encapsulation: "style" }] },
-            failOnError: false,
-            strictCSS: true,
-            htmlMinifier: {
-              collapseWhitespace: true,
-              conservativeCollapse: true,
-              removeComments: true,
-              caseSensitive: true,
-              minifyCSS: true,
-            },
-          },
-        ],
+        [],
       ],
     }),
   ],
