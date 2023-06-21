@@ -18,7 +18,7 @@ export default {
     /** Enable using HTML as rollup entrypoint */
     html({
       minify: true,
-      publicPath: "day-0-expectations",
+      publicPath: "how-to-build-we-applets",
     }),
     /** Resolve bare module imports */
     nodeResolve(),
